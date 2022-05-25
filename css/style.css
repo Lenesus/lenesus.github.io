@@ -1,0 +1,597 @@
+        /*Header*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container-4 {
+            width: 100%;
+        }
+        
+        main {
+            position: relative;
+            width: 1650px;
+            height: 240px;
+            border: 3px solid rgb(177, 190, 213);
+            margin: 20px 10px 0 10px;
+        }
+        
+        header {
+            max-width: 1440px;
+        }
+        
+        .logo {
+            position: absolute;
+            width: 133px;
+            height: 136px;
+            background: url(../images/Рисунок1.png);
+            margin-top: -40px;
+            margin-left: 15px;
+        }
+        
+        h3 {
+            font-family: "Spectral", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 90px;
+            margin-left: 300px;
+            color: rgb(70, 86, 120);
+            text-indent: -80px;
+            width: 300px;
+        }
+        
+        .geo-container {
+            margin-top: -90px;
+            margin-left: 700px;
+        }
+        
+        .geo-icon {
+            width: 33px;
+            height: 43px;
+            background: url(../icons/geo.png);
+            margin-left: -30px;
+        }
+        
+        .geo-text {
+            width: 200px;
+            line-height: 18px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgb(70, 86, 120);
+            margin-top: -40px;
+            margin-left: 10px;
+        }
+        
+        .time-container {
+            margin-left: 700px;
+            margin-top: 30px;
+        }
+        
+        .time-icon {
+            width: 35px;
+            height: 28px;
+            background: url(../icons/clock.png);
+            margin-left: -30px;
+            margin-top: 20px;
+        }
+        
+        .time-text {
+            width: 200px;
+            line-height: 18px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgb(70, 86, 120);
+            margin-top: -30px;
+            margin-left: 10px;
+        }
+        
+        .icon-container {
+            margin-left: 1000px;
+            display: inline-flex;
+            margin-top: -80px;
+        }
+        
+        .viber-icon {
+            width: 38px;
+            height: 41px;
+            background: url(../icons/viber.png);
+            margin-right: 25px;
+        }
+        
+        .telegram-icon {
+            width: 42px;
+            height: 41px;
+            background: url(../icons/telegram.png);
+            margin-right: 25px;
+        }
+        
+        .whatsapp-icon {
+            width: 42px;
+            height: 41px;
+            background: url(../icons/whatsapp.png);
+            margin-right: 25px;
+        }
+        
+        .VK-icon {
+            width: 42px;
+            height: 34px;
+            background: url(../icons/VK.png);
+            margin-right: 25px;
+        }
+        
+        .number {
+            width: 200px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: rgb(70, 86, 120);
+            margin-left: 1020px;
+            margin-top: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .phone-container {
+            margin-left: 1380px;
+            margin-top: -140px;
+        }
+        
+        .phone-icon {
+            width: 57px;
+            height: 57px;
+            background: url(../icons/tel.png);
+        }
+        
+        .num-1 {
+            width: 200px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: rgb(70, 86, 120);
+            margin-left: 65px;
+            margin-top: -60px;
+        }
+        
+        .num-2 {
+            width: 200px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: rgb(70, 86, 120);
+            margin-left: 65px;
+        }
+        
+        .email-container {
+            margin-left: 1380px;
+            margin-top: 20px;
+        }
+        
+        .email-icon {
+            width: 52px;
+            height: 52px;
+            background: url(../icons/email.png);
+        }
+        
+        .email-text {
+            width: 200px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: rgb(70, 86, 120);
+            margin-left: 75px;
+            margin-top: -30px;
+        }
+        /*Site-menu*/
+        
+        .container {
+            position: relative;
+            margin: 20px 10px 0 10px;
+        }
+        
+        .rec {
+            width: 1655px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+            margin-top: 20px;
+        }
+        
+        ul {
+            position: absolute;
+            display: inline-flex;
+            list-style: none;
+        }
+        
+        li {
+            width: 200px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: -40px;
+            color: white;
+        }
+        /*Main-header*/
+        
+        .content {
+            position: relative;
+            margin: 50px 30px 0 30px;
+        }
+        
+        .rect {
+            width: 1630px;
+            height: 100px;
+            background: rgb(99, 144, 178);
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        
+        .first-header {
+            position: absolute;
+            width: 1000px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 360px;
+            margin-top: -80px;
+            color: white;
+        }
+        
+        .second-header {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            margin-left: 600px;
+            margin-top: -50px;
+            color: white
+        }
+        /*Browser-string*/
+        
+        .container-1 {
+            position: relative;
+            margin: 30px 580px 0 580px;
+        }
+        
+        .rectangle-1 {
+            width: 600px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+            margin-top: 30px;
+        }
+        
+        .search-text {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: -40px;
+            margin-left: 10px;
+            color: white;
+        }
+        
+        .browse-string {
+            margin-left: 300px;
+            margin-top: -50px;
+        }
+        
+        .loop-icon {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: url(../icons/LOOPa.png);
+            margin-top: 17px;
+            margin-left: 6px;
+            background-color: white;
+        }
+        
+        input {
+            margin-top: 15px;
+            height: 20px;
+        }
+        /*Services*/
+        
+        .container-3 {
+            position: relative;
+        }
+        
+        .content-2 {
+            display: inline-flex;
+        }
+        
+        .r1 {
+            margin-left: 450px;
+            margin-top: 50px;
+        }
+        
+        .rect-1 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: -40px;
+            color: white;
+        }
+        
+        .r2 {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        
+        .rect-2 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-2 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 80px;
+            margin-top: -50px;
+            text-indent: -20px;
+            line-height: 26px;
+            color: white;
+        }
+        
+        .r3 {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        
+        .rect-3 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-3 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 60px;
+            margin-top: -50px;
+            text-indent: -25px;
+            line-height: 26px;
+            color: white;
+        }
+        
+        .content-3 {
+            display: inline-flex;
+        }
+        
+        .r4 {
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        
+        .rect-4 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-4 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 60px;
+            margin-top: -50px;
+            text-indent: -20px;
+            line-height: 26px;
+            color: white;
+        }
+        
+        .r5 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-5 {
+            width: 300px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-5 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: -50px;
+            text-indent: 20px;
+            line-height: 26px;
+            color: white;
+        }
+        
+        .r6 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-6 {
+            width: 300px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-6 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 40px;
+            margin-top: -50px;
+            line-height: 26px;
+            color: white;
+        }
+        
+        .r7 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-7 {
+            width: 300px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-7 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 75px;
+            margin-top: -50px;
+            line-height: 26px;
+            text-indent: -25px;
+            color: white;
+        }
+        
+        .content-4 {
+            display: inline-flex;
+        }
+        
+        .r8 {
+            margin-left: 150px;
+            margin-top: 40px;
+        }
+        
+        .rect-8 {
+            width: 250px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-8 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 35px;
+            margin-top: -50px;
+            line-height: 26px;
+            text-indent: -10px;
+            color: white;
+        }
+        
+        .r9 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-9 {
+            width: 250px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-9 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 60px;
+            margin-top: -50px;
+            line-height: 26px;
+            text-indent: -20px;
+            color: white;
+        }
+        
+        .r10 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-10 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-10 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 55px;
+            margin-top: -40px;
+            color: white;
+        }
+        
+        .r11 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-11 {
+            width: 250px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-11 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 30px;
+            margin-top: -50px;
+            line-height: 26px;
+            text-indent: 10px;
+            color: white;
+        }
+        
+        .r12 {
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .rect-12 {
+            width: 220px;
+            height: 50px;
+            background: rgb(99, 144, 178);
+        }
+        
+        .txt-12 {
+            position: absolute;
+            width: 500px;
+            font-family: 'Spectral', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            margin-left: 70px;
+            margin-top: -50px;
+            line-height: 26px;
+            text-indent: -10px;
+            color: white;
+        }
